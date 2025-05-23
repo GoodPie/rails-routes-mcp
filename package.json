@@ -1,0 +1,21 @@
+{
+  "name": "rails-routes-mcp",
+  "version": "1.0.0",
+  "author": "GoodPie",
+  "description": "MCP server for Rails route inspection",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/src/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "typescript": "^5.8.3",
+    "tsx": "^4.19.4"
+  }
+}
