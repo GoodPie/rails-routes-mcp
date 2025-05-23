@@ -10,7 +10,7 @@ This project provides a Model Context Protocol (MCP) server for inspecting and q
 
 ## Requirements
 
-- Node.js (v16+ recommended)
+- Node.js (v20+ recommended)
 - A local Rails application
 
 ## Setup
@@ -21,11 +21,10 @@ This project provides a Model Context Protocol (MCP) server for inspecting and q
    ```
    
 2. **Define your rails application path:**
-
-```sh
-export RAILS_APP_PATH=/path/to/your/rails/app
-export RAILS_COMMAND=rails
-```
+   ```sh
+   export RAILS_APP_PATH=/path/to/your/rails/app
+   export RAILS_COMMAND=rails
+   ```
 
 3. **Run the server:**
    ```sh
